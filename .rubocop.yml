@@ -1,0 +1,31 @@
+AllCops:
+  Include:
+    - Gemfile
+    - Guardfile
+    - Rakefile
+    - config.ru
+    - '**/*.rb'
+  Exclude:
+    - ignore/**/*
+Metrics/AbcSize:
+  Enabled: no
+Metrics/CyclomaticComplexity:
+  Enabled: no
+Metrics/MethodLength:
+  Enabled: no
+Metrics/PerceivedComplexity:
+  Enabled: no
+Style/CaseIndentation:
+  Enabled: no
+Style/Documentation:
+  Enabled: no
+Style/GuardClause:
+  Enabled: no
+Style/LineEndConcatenation:
+  Enabled: no
+Style/RegexpLiteral:
+  Enabled: no
+Style/RedundantSelf:
+  Enabled: no
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: no

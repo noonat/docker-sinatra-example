@@ -1,0 +1,6 @@
+*.sublime-workspace
+*.swp
+.DS_Store
+/.bundle
+/ignore
+/vendor
